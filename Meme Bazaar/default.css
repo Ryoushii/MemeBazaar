@@ -1,0 +1,292 @@
+/*Default Style*/
+html
+{
+	height: 100%;
+}
+/*CSS example courtesy of Adam Bray, www.adam-bray.com*/
+
+body
+{
+	background-color: #0b4177;
+	color: #222;
+	font-family: "Helvetica-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	height: 100%;
+}
+
+div#body
+{
+	min-height: 65%;
+	height: auto;
+}
+
+nav
+{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	margin: 8px 22px 8px 22px;
+	overflow: hidden;
+	width: 90%;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	list-style-type: none;
+	
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+nav > ul > li > a
+{
+	color: #666;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+}
+
+nav > ul > li > a > .caret
+{
+	border-top: 4px solid #aaa;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: "";
+	display: inline-block;
+	height: 0;
+	width: 0;
+	vertical-align: middle;
+	
+	-webkit-transition: color 0.1s linear;
+	-moz-transition: color 0.1s linear;
+	-ms-transition: color 0.1s linear;
+	-o-transition: color 0.1s linear;
+	transition: color 0.1s linear;
+}
+
+nav > ul > li:hover
+{
+	background-color: rgb(40, 44, 47);
+}
+
+nav > ul > li:hover > a
+{
+	color: #ff5bb3;
+}
+
+nav > ul > li:hover > a > .caret
+{
+	border-top-color: #ff5bb3;
+}
+
+nav > ul > li > div
+{
+	background-color: rgb(40, 44, 47);
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: none;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	width: 165px;
+	visibility: hidden;
+	z-index: 100;
+	
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-0-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+nav > ul > li:hover > div
+{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+nav > ul > li > div ul > li
+{
+	display: block;
+}
+
+nav > ul > li > div ul > li > a
+{
+	color: #fff;
+	display: block;
+	padding: 12px 24px;
+	text-decoration: none;
+}
+
+nav > ul > li > div ul > li:hover > a
+{
+	color: #ff5bb3;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+/*END CSS example courtesy of Adam Bray, www.adam-bray.com*/
+
+div.items, div.footer
+{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: block;
+	margin: 5px 20px 5px 20px;
+	overflow: hidden;
+	width: 90%;
+}
+
+div>p
+{
+	margin: 10px;
+}
+
+div#sale.items
+{
+	background-color: #ffb1a2;
+}
+
+div#memes.items
+{
+	background-color: #ffd29e;
+}
+
+div#cart.items
+{
+	background-color: #a7a7a7;
+}
+
+div.items  h1, div.items h3
+{
+	margin: 15px;
+}
+
+div.items form
+{
+	margin: 15px;
+}
+
+div.items  ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 8px;
+}
+
+div.items ul h3 
+{
+	font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+ 
+div.items li img 
+{
+	float: left;
+	margin: 0 15px 0 0;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+}
+ 
+ div.items li p
+{
+	font: 200 14px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+div.items li span 
+{
+	font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+div.items li 
+{
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	margin: 2.5px 0 0 0;
+	overflow: auto;
+}
+
+div.items li.cart
+{
+	padding: 0px;
+}
+ 
+div.items li:hover 
+{
+	background: #ffb2ff;
+}
+li.cart p
+{
+	margin: 0px;
+	display: inline;
+}
+
+div.pages
+{
+	margin: 10px;
+}
+
+div.login
+{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: inline-block;
+	margin: 5px 20px 5px 20px;
+	overflow: hidden;
+}
+
+div.logout
+{
+	margin: 20px;
+}
+table
+{ 
+	border: 0; 
+	cellpadding: 0; 
+	cellspacing: 1; 
+	bgcolor: #ccc;
+	margin: 15px;
+}
+
+table#login
+{
+	wdith: 300px;
+	margin: 10px;
+}
+
+table table
+{
+	border: 0; 
+	cellpadding: 3; 
+	cellspacing: 1; 
+	bgcolor: #fff;
+}
+
+td>input
+{
+	width: 100%;
+}
